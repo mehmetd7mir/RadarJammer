@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "radar-jammer"
+version = "1.0.0"
+description = "Electronic warfare radar jamming simulation"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Mehmet Demir"}
+]
+
+keywords = ["radar", "jamming", "electronic-warfare", "signal-processing", "simulation"]
+
+dependencies = [
+    "numpy>=1.24.0",
+    "scipy>=1.11.0",
+    "matplotlib>=3.7.0",
+    "streamlit>=1.29.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
