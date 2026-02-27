@@ -9,6 +9,9 @@
 
 > Simulate radar signals and electronic countermeasures (ECM) jamming techniques.
 
+> [!NOTE]
+> 🤖 This project was **vibe coded** — built with AI assistance as a learning exercise to explore electronic warfare concepts.
+
 ---
 
 ## Features
